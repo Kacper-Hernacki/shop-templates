@@ -3,8 +3,8 @@
 body{
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
-  color: #222121;
-  background-color: #161515;
+  color: #8d4a4a;
+  background-color: #f8dfdf;
 }
 
 /*============= Navbar Style =============*/
@@ -53,12 +53,12 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    opacity: .8;
+    opacity: .6;
 }
 
 .carousel-item {
     position: relative;
-  height: 100vh;
+    height: 100vh;
 }
 
 .carousel-caption {
@@ -76,4 +76,121 @@ body{
 #home h3 {
   margin-bottom: 30px;
   color: #833535;
+}
+
+.pastel-btn {
+  color: #833535;
+  border-color: #833535;
+}
+
+.pastel-btn:hover {
+  color: rgba(253, 219, 219, 0.6);
+  border-color: rgba(253, 219, 219, 0.6);
+  background-color: #833535;
+}
+
+/*============= Quotation =============*/
+#quotation {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  background: url(/dist/img/quotation.jpg);
+  /*============= Photo by Patrick Fore on Unsplash =============*/
+  background-attachment: fixed;
+  background-size: cover;
+
+  position: absolute;
+  z-index: -3;
+}
+
+#quotation::after{
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-color: #f9f2ec;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  opacity: .6;
+}
+
+#quotation {
+  position: relative;
+}
+
+.blockquote { 
+  margin-right: 20%;
+  margin-left: 20%;
+  background: #e29d9d;
+  padding: 10px;
+  border: 1px solid #833535;
+  color:#833535;
+  box-sizing: border-box;
+  z-index: 3;
+}
+
+.blockquote-text {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+}
+
+.blockquote-bordered {
+  border-left-width: 3px;
+}
+
+.blockquote-text-credit {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.blockquote-text-credit::before {
+  content: "\2014\0020";
+}
+
+.blockquote-quoted::before{
+  content: "\201c";
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  margin-bottom: -40px;
+}
+
+/*============= About =============*/
+#about {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#about h1{
+  margin-bottom: 40px;
+}
+
+#about p{
+  text-align: justify;
+}
+
+.bio-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.bio-container .about-photo{
+  margin-top: 10px;
+  width: 40%;
+}
+
+.bio-container .about-text{
+  width: 40%;
+}
+
+/*============= Products =============*/
+#products{
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
