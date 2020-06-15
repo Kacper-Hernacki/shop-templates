@@ -12,7 +12,11 @@ var arrLang = {
         'main-1-2' : 'You will find here handmade products',
         'main-2' : 'Every handicraft is made with passion',
         'main-3' : 'See unique products which are not available in ordinary shop',
-        'quote' : 'Style is a way to say who you are without having to speak.'
+        'quote' : 'Style is a way to say who you are without having to speak.',
+        'about-me' : 'About Me',
+        'products' : 'Products',
+        'gallery' : 'Gallery',
+        'contact' : 'Contact'
     },
     'pl' : {
         'home' : 'Strona Główna',
@@ -25,7 +29,11 @@ var arrLang = {
         'main-1-2' : 'Znajdziesz tu ręcznie wykonane produkty',
         'main-2' : 'Każde rękodzieło jest robione z pasją',
         'main-3' : 'Zobacz unikatowe produkty, których nie nabędziesz w zwykłym sklepie',
-        'quote' : 'Styl to sposób w jaki bez słów ukazujesz siebie.'
+        'quote' : 'Styl to sposób w jaki bez słów ukazujesz siebie.',
+        'about-me' : 'O Mnie',
+        'products' : 'Produkty',
+        'gallery' : 'Galeria',
+        'contact' : 'Kontakt'
     }
 };
 
