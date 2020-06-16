@@ -173,6 +173,7 @@ body{
 
 #about p{
   text-align: justify;
+  font-size: 20px;
 }
 
 .bio-container {

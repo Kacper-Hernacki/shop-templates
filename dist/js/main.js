@@ -16,7 +16,10 @@ var arrLang = {
         'about-me' : 'About Me',
         'products' : 'Products',
         'gallery' : 'Gallery',
-        'contact' : 'Contact'
+        'contact' : 'Contact',
+        'about-paragraph-1' : 'Handicraft accompanies me since I was a child',
+        'about-paragraph-2' : 'My great grandmother was knitting, after my grandmother, mother and now it is my turn to continue this tradition, heritage',
+        'about-paragraph-3' : 'If you have any idea for knitting product, let me know and I will create special one only for you'
     },
     'pl' : {
         'home' : 'Strona Główna',
@@ -33,7 +36,10 @@ var arrLang = {
         'about-me' : 'O Mnie',
         'products' : 'Produkty',
         'gallery' : 'Galeria',
-        'contact' : 'Kontakt'
+        'contact' : 'Kontakt',
+        'about-paragraph-1' : 'Robótki ręczne towarzyszą mi od dzieciństwa.',
+        'about-paragraph-2' : 'Dziergała moja prababcia, potem babcia, mama i teraz to moja kolej, by kontynuować tą tradycję, dziedzictwo. Dzierganie przerodziło się w pasję. Z tej pasji powstały oferowane produkty i wciąż powstają nowe.',
+        'about-paragraph-3' : 'Jeśli masz jakiś pomysł na wyrób dziergany - napisz, wykreuję go z wełny lub sznurka.'
     }
 };
 
