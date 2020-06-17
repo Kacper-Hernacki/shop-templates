@@ -16,7 +16,9 @@ body{
 }
 
 .navbar-brand {
-  height: 2rem;
+  height: 3rem;
+  font-size: 23px;
+  
 }
 
 .logo img{
@@ -41,6 +43,24 @@ body{
     margin-right: 5px;
     background-color:  rgba(228, 183, 183, 0.6)!important;
     color: #833535!important;
+}
+
+#cart-icon{
+	width: 45px;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+#cart-total{
+	display: block;
+	text-align: center;
+	color:#fff;
+	background-color: red;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+  font-size: 14px;
+  margin-right: 20px;
 }
 
 /*============= Slider Style =============*/
@@ -69,7 +89,7 @@ body{
 .logo-text{
   color: #125464!important;
   padding-bottom: 30px;
-  font-size: 60px;
+  font-size: 90px;
 }
 
 #home h2 {
@@ -93,6 +113,10 @@ body{
   color: rgba(253, 219, 219, 0.6);
   border-color: rgba(253, 219, 219, 0.6);
   background-color: #833535;
+}
+
+.brand-name{
+  font-family: 'Nanum Pen Script', cursive!important;
 }
 
 /*============= Quotation =============*/
@@ -452,4 +476,42 @@ textarea::placeholder{
 
 .detail{
   margin-bottom: 30px;
+}
+
+/*=========================================*/
+/*============= products.html =============*/
+
+.shop-container::after{
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-color: #6a919b;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .6;
+  z-index: 0;
+}
+
+.shop-container{
+  background-image: url(/dist/img/products-template-bg.jpg);
+  padding-bottom: 40px;
+
+  position: relative;
+
+  background-attachment: fixed;
+  background-size: cover;
+
+  height: 100vh;
+}
+
+.shop-container > * {
+  z-index: 10;
+  position: relative;
+}
+
+.shop-container h1{
+  font-size: 60px;
+  top: 10%;
 }
