@@ -23,7 +23,10 @@ var arrLang = {
         'contact' : 'Contact',
         'contact-me' : 'Contact me',
         'phone' : 'ph. 123-456-789',
-        'btn-send' : 'Submit'
+        'btn-send' : 'Submit',
+        'btn-contact' : 'Contact Me',
+        'shopping' : 'If you want see available products, please click the button below. However, if you have any idea for unique product, contact me. I will appreciate new challenges!',
+        'gallery-descr' : 'Below I represent my sample handicrafts, which I have made'
     },
     'pl' : {
         'home' : 'Strona Główna',
@@ -47,7 +50,10 @@ var arrLang = {
         'contact' : 'Kontakt',
         'contact-me' : 'Skontaktuj się ze mną',
         'phone' : 'tel. 123-456-789',
-        'btn-send' : 'Wyślij'
+        'btn-send' : 'Wyślij',
+        'btn-contact' : 'Skontaktuj się ze mną',
+        'shopping' : 'Jeśli chcesz obejrzeć dostępne produkty, kliknij w przycisk poniżej. Jednakże, jak masz jakiś pomysł na unikalny produkt napisz do mnie, chętnie go zrealizuje.',
+        'gallery-descr' : 'Poniżej przedstawiam przykładowe rękodzieła, które wykonałam'
     }
 };
 
