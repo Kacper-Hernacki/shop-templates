@@ -205,9 +205,25 @@ body{
 }
 
 /*============= Products =============*/
+#products h1{
+  font-size: 60px;
+  margin-bottom: 80px;
+}
+
 #products{
   padding-top: 40px;
   padding-bottom: 40px;
+
+  width: 100%;
+  height: 100vh;
+
+  background-color: #b5d4dd;
+  
+}
+
+.products-container{
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 /*============= Gallery =============*/
@@ -217,7 +233,130 @@ body{
 }
 
 /*============= contact =============*/
-#contact{
-  padding-top: 40px;
+.contact::after{
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-color: #41595f;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .8;
+  z-index: 0;
+}
+
+.contact{
+  background-image: url(/dist/img/contact.jpg);
   padding-bottom: 40px;
+
+  position: relative;
+
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.contact > * {
+  z-index: 10;
+  position: relative;
+}
+
+.contact h1 {
+  font-size: 60px;
+}
+
+#contact .container{
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.fa-map-marker, .fa-phone, .fa-envelope, .fa-instagram-square{
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.fa-instagram-square:hover{
+  cursor: pointer;
+}
+
+.instagram-span:hover{
+  cursor: pointer;
+}
+
+.form-info{
+  font-size: 16px;
+  font-style: italic;
+  color: white;
+  letter-spacing: 2px;
+}
+
+input{
+  padding: 10px;
+  margin-top: 10px;
+  width: 70%;
+  background-color: rgb(148, 78, 78, .5);
+  border: none;
+  outline: none;
+}
+
+input::placeholder{
+  color: white;
+}
+
+textarea{
+  padding: 10px;
+  margin-top: 10px;
+  width: 70%;
+  background-color: rgb(148, 78, 78, .5);
+  border: none;
+  outline: none;
+}
+
+textarea::placeholder{
+  color: white;
+}
+
+.submit{
+  margin-top: 10px;
+  width: 70%;
+  background-color: #161515;
+  color: #fff;
+  font-weight: 700;
+  padding: 4px;
+  outline: none;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 33px;
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid rgb(19, 18, 18);
+  color: #fff;
+}
+
+.submit:hover{
+  cursor: pointer;
+  background-color: rgb(192, 184, 184);
+  color: #000;
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: row;
+}
+
+.details-container{
+  width: 50%;
+  padding-bottom: 40px;
+}
+
+.form-container{
+  width: 50%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.detail{
+  margin-bottom: 30px;
 }
