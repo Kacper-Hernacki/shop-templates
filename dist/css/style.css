@@ -62,14 +62,20 @@ body{
 }
 
 .carousel-caption {
-    top: 40%;
+    top: 6%;
     bottom: auto;
 }
 
-#home h1 {
+.logo-text{
+  color: #125464!important;
+  padding-bottom: 30px;
+  font-size: 60px;
+}
+
+#home h2 {
   margin-bottom: 15px;
   font-weight: 1600!important;
-  font-size: 60px;
+  font-size: 40px;
   color: #833535;
 }
 
