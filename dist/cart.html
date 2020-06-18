@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Poduchy Anuchy</title>
+	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/fixed.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet"> 
+<!--- Background photos from unsplash.com -->
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+<!--- Start Home Section -->
+<div id="home">
+
+    <!--- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="logo" href="index.html">
+            <img src="img/logo.png" alt="">
+        </a>
+        <a class="navbar-brand brand-name" href="index.html">
+            Poduchy Anuchy
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link lang" key="back" href="products.html">Wróć</a>
+                </li>
+            </ul>
+        </div>
+        <div class="form-inline my-2 my-lg-0">
+            <a href="cart.html">
+               <img  id="cart-icon" src="img/shoping-basket.png" class="img-fluid">
+           </a>
+           <p id="cart-total">0</p>
+       </div>
+            <!--- Languages -->
+            <button type="button" class="translate btn btn-light" id="en">EN</button>
+            <button type="button" class="translate btn btn-light" id="pl">PL</button>
+    </nav>
+    <!--- End of Navigation -->
+    <div class="cart-container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="box-element">
+    
+                    <a  class="btn btn-outline-dark" href="{% url 'store' %}">&#x2190; Continue Shopping</a>
+    
+                    <br>
+                    <br>
+                    <table class="table">
+                        <tr>
+                            <th><h5>Items: <strong>3</strong></h5></th>
+                            <th><h5>Total:<strong> $42</strong></h5></th>
+                            <th>
+                                <a  style="float:right; margin:5px;" class="btn btn-success" href="checkout.html">Checkout</a>
+                            </th>
+                        </tr>
+                    </table>
+    
+                </div>
+    
+                <br>
+                <div class="box-element">
+                    <div class="cart-row">
+                        <div style="flex:2"></div>
+                        <div style="flex:2"><strong>Item</strong></div>
+                        <div style="flex:1"><strong>Price</strong></div>
+                        <div style="flex:1"><strong>Quantity</strong></div>
+                        <div style="flex:1"><strong>Total</strong></div>
+                    </div>
+                    
+                    <div class="cart-row">
+                        <div style="flex:2"><img class="row-image" src="{% static 'images/placeholder.png' %}"></div>
+                        <div style="flex:2"><p>Product 1</p></div>
+                        <div style="flex:1"><p>$20</p></div>
+                        <div style="flex:1">
+                            <p class="quantity">2</p>
+                            <div class="quantity">
+                                <img class="chg-quantity" src="{% static  'images/arrow-up.png' %}">
+                        
+                                <img class="chg-quantity" src="{% static  'images/arrow-down.png' %}">
+                            </div>
+                        </div>
+                        <div style="flex:1"><p>$32</p></div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
