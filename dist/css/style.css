@@ -486,7 +486,7 @@ textarea::placeholder{
   display: block;
   height: 100%;
   width: 100%;
-  background-color: #6a919b;
+  background-color: #bed7dd;
   position: absolute;
   top: 0;
   left: 0;
@@ -503,7 +503,6 @@ textarea::placeholder{
   background-attachment: fixed;
   background-size: cover;
 
-  height: 100vh;
 }
 
 .shop-container > * {
@@ -513,5 +512,34 @@ textarea::placeholder{
 
 .shop-container h1{
   font-size: 60px;
-  top: 10%;
+  padding-top: 60px;
+}
+
+.items-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.shop-image{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.carts-container{
+  margin-top: 5%;
+  background-color: rgba(189, 135, 135, 0.8);
+  color:#833535;
+  
+  padding: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 20%;
+  height: auto;
+}
+
+.carts-container h6{
+  font-size: 20px;
 }
