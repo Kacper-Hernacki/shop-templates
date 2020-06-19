@@ -28,7 +28,19 @@ var arrLang = {
         'shopping' : 'If you want see available products, please click the button below. However, if you have any idea for unique product, contact me. I will appreciate new challenges!',
         'gallery-descr' : 'Below I represent my sample handicrafts, which I have made',
         'back' : 'Back',
-        'products-list' : 'My Products'
+        //products.html
+        'products-list' : 'My Products',
+        'product-list-1' : 'Pot',
+        'product-list-2' : 'Pillowcase',
+        'product-list-3' : 'Picture',
+        'product-list-4' : 'Plaid',
+        'product-list-5' : 'Pillowcase',
+        'product-list-6' : 'Pillowcase',
+        'product-list-7' : 'Picture',
+        'product-list-8' : 'Picture',
+        'product-list-9' : 'Pillowcase',
+        'view-btn' : 'View',
+        'add-btn' : 'Add'
     },
     'pl' : {
         'home' : 'Strona Główna',
@@ -57,7 +69,19 @@ var arrLang = {
         'shopping' : 'Jeśli chcesz obejrzeć dostępne produkty, kliknij w przycisk poniżej. Jednakże, jak masz jakiś pomysł na unikalny produkt napisz do mnie, chętnie go zrealizuje.',
         'gallery-descr' : 'Poniżej przedstawiam przykładowe rękodzieła, które wykonałam',
         'back' : 'Wróć',
-        'products-list' : 'Moje produkty'
+        //products
+        'products-list' : 'Moje produkty',
+        'product-list-1' : 'Doniczka',
+        'product-list-2' : 'Poszewka na poduszkę',
+        'product-list-3' : 'Obrazek',
+        'product-list-4' : 'Pled',
+        'product-list-5' : 'Poszewka na poduszkę',
+        'product-list-6' : 'Poszewka na poduszkę',
+        'product-list-7' : 'Obrazek',
+        'product-list-8' : 'Obrazek',
+        'product-list-9' : 'Poszewka na poduszkę',
+        'view-btn' : 'Zobacz',
+        'add-btn' : 'Dodaj'
     }
 };
 
