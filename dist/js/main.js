@@ -40,7 +40,11 @@ var arrLang = {
         'product-list-8' : 'Picture',
         'product-list-9' : 'Pillowcase',
         'view-btn' : 'View',
-        'add-btn' : 'Add'
+        'add-btn' : 'Add',
+        //cart
+        'your-purchase' : 'Your-Purchase',
+        //checkout
+        'details' : 'details of the order'
     },
     'pl' : {
         'home' : 'Strona Główna',
@@ -81,7 +85,11 @@ var arrLang = {
         'product-list-8' : 'Obrazek',
         'product-list-9' : 'Poszewka na poduszkę',
         'view-btn' : 'Zobacz',
-        'add-btn' : 'Dodaj'
+        'add-btn' : 'Dodaj',
+        //cart
+        'your-purchase' : 'Twój Zakup',
+        //checkout
+        'details' : 'Szczegóły zamówienia'
     }
 };
 
